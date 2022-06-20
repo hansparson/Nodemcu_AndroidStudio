@@ -31,7 +31,7 @@ public class GoogleLogin extends AppCompatActivity {
     private FirebaseAuth mAuth;
 
     @Override
-    protected void onStart() {
+    protected void onStart() { //// Cek Apakah Sudah Login Atau Belum
         super.onStart();
         FirebaseUser user = mAuth.getCurrentUser();
         if(user!=null){
@@ -42,7 +42,7 @@ public class GoogleLogin extends AppCompatActivity {
 
     boolean doubleBackToExitPressedOnce = false;
     @Override
-    public void onBackPressed() {
+    public void onBackPressed() { /// Tekan 2 kali untuk Keluar
         if (doubleBackToExitPressedOnce) {
             finishAffinity();
         }
@@ -57,7 +57,7 @@ public class GoogleLogin extends AppCompatActivity {
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {  ///Main Programm
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_google_login);
 
@@ -72,8 +72,7 @@ public class GoogleLogin extends AppCompatActivity {
             }
         });
     }
-    private void createRequest() {
-
+    private void createRequest() { //// Tes/Cek Koneksi ke Firestore
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.webclienid))
@@ -119,7 +118,6 @@ public class GoogleLogin extends AppCompatActivity {
 
                         } else {
                             Toast.makeText(GoogleLogin.this, "Sorry auth failed.", Toast.LENGTH_SHORT).show();
-
                         }
 
                         // ...
