@@ -57,7 +57,7 @@ public class SplashScreen extends AppCompatActivity {
         }
         else {
             Toast.makeText(SplashScreen.this, "Selamat Datang", Toast.LENGTH_SHORT).show();
-            Intent i = new Intent(getApplicationContext(),MainActivity.class);
+            Intent i = new Intent(getApplicationContext(),GoogleLogin.class);
             startActivity(i);
         }
     }
@@ -79,8 +79,8 @@ public class SplashScreen extends AppCompatActivity {
             }
             else {
                 Toast.makeText(SplashScreen.this, "Invalid Permission Denied", Toast.LENGTH_SHORT) .show();
-                Intent i = new Intent(getApplicationContext(),GoogleLogin.class);
-                startActivity(i);
+//                Intent i = new Intent(getApplicationContext(),GoogleLogin.class);
+//                startActivity(i);
             }
         }
     }
