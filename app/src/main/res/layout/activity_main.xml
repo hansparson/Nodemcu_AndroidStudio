@@ -99,6 +99,7 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/temperature"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="25"
@@ -190,6 +191,7 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/kelembapan"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="25"
@@ -280,6 +282,7 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/intensitas_cahaya"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="25"
@@ -370,6 +373,7 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/curah_hujan"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="25"
