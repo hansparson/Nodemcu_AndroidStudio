@@ -7,11 +7,14 @@
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/drawable/bg2.xml" value="0.2985" />
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/drawable/bg3.xml" value="0.2985" />
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/drawable/bg4.xml" value="0.2985" />
+        <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/drawable/buttonstyle.xml" value="0.225" />
+        <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/drawable/gradientbackground.xml" value="0.225" />
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/drawable/round_btn.xml" value="0.362" />
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/drawable/thumb.xml" value="0.2985" />
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/drawable/track.xml" value="0.2985" />
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/layout/activity_google_login.xml" value="0.3070652173913043" />
-        <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/layout/activity_main.xml" value="0.24954710144927536" />
+        <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/layout/activity_log_out.xml" value="0.3170289855072464" />
+        <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/layout/activity_main.xml" value="0.4693333333333333" />
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/layout/activity_relay_control.xml" value="0.20199275362318841" />
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/layout/activity_splash_screen.xml" value="0.3170289855072464" />
         <entry key="..\:/Android_Studio_Files/BlackTedIoT/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.36666666666666664" />

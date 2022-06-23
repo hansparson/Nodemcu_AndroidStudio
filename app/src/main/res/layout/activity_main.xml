@@ -102,7 +102,7 @@
                             android:id="@+id/temperature"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="25"
+                            android:text="0"
                             android:textColor="@color/white"
                             android:textSize="50sp" />
 
@@ -194,7 +194,7 @@
                             android:id="@+id/kelembapan"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="25"
+                            android:text="0"
                             android:textColor="@color/white"
                             android:textSize="50sp" />
 
@@ -285,7 +285,7 @@
                             android:id="@+id/intensitas_cahaya"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="25"
+                            android:text="0"
                             android:textColor="@color/white"
                             android:textSize="50sp" />
 
@@ -376,7 +376,7 @@
                             android:id="@+id/curah_hujan"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="25"
+                            android:text="0"
                             android:textColor="@color/white"
                             android:textSize="50sp" />
 
@@ -397,7 +397,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Lux"
+                            android:text="mm/s"
                             android:textColor="@color/white"
                             android:textSize="30sp" />
                     </LinearLayout>

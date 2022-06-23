@@ -59,7 +59,7 @@ public class RelayControl extends AppCompatActivity {
         Relay1.setOnToggledListener(new OnToggledListener() {
             @Override
             public void onSwitched(ToggleableView toggleableView, boolean isOn) {
-                Toast.makeText(RelayControl.this, "relay 1 " +isOn, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(RelayControl.this, "relay 1 " +isOn, Toast.LENGTH_SHORT).show();
                 FirebaseDatabase.getInstance().getReference().child("Switch").child("Relay_1").setValue(isOn);
             }
         });
@@ -67,7 +67,7 @@ public class RelayControl extends AppCompatActivity {
         Relay2.setOnToggledListener(new OnToggledListener() {
             @Override
             public void onSwitched(ToggleableView toggleableView, boolean isOn) {
-                Toast.makeText(RelayControl.this, "relay 2 " +isOn, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(RelayControl.this, "relay 2 " +isOn, Toast.LENGTH_SHORT).show();
                 FirebaseDatabase.getInstance().getReference().child("Switch").child("Relay_2").setValue(isOn);
             }
         });
@@ -88,6 +88,7 @@ public class RelayControl extends AppCompatActivity {
 
                                 break;
                             case R.id.navigation_account:
+                                startActivity(new Intent(RelayControl.this, LogOut.class));
 
                                 break;
                         }
